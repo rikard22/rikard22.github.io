@@ -2,30 +2,42 @@ h2{ background-color: #ff9999;
 }
   header{ background-color: #66ffcc;
   height: 100px;
-width: 600px;}
+width: 100%;}
 
 nav{background-color: #cc66ff;
 height: 100px;
-width: 600px;
+width: 100%;
 }
 
 main{background-color: #99ff66;
 height: 300px;
-width: 400px;}
+width: 65%;}
  aside{background-color: #ff6666;
  height: 300px;
-width: 200px;}
+width: 35%;}
 
 footer{background-color: #009999;
 height: 100px;
-width: 600px;}
+width: 100%;}
 #mainwrapper{
 display:flex;
 
 }
-#wrapper{ width: 600px;
+#wrapper{ width: 100%;
 
 margin-left:auto;
   margin-right: auto;
 
+}
+@media only screen and (max-width: 600px) {
+
+#mainwrapper{ display:flex;
+flex-direction: column;
+}
+main{
+  width: 100%;
+}
+aside{
+  width: 100%;
+}
 }
