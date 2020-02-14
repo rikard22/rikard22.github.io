@@ -25,16 +25,28 @@ display:flex;
 }
 #wrapper{ width: 100%;
 
+
 margin-left:auto;
   margin-right: auto;
 
 }
-@media only screen and (max-width: 600px) {
+#box1wrapper{
+  height: 50%;
+  width: 100%;
+  background-color: grey;
+}
+#box2wrapper{
+  height: 50%;
+  width: 100%;
+  background-color: green;
+}
+@media only screen and (max-width:  600px) {
 
 #mainwrapper{ display:flex;
 flex-direction: column;
 }
 main{
+
   width: 100%;
 }
 aside{
