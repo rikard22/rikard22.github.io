@@ -47,7 +47,7 @@ a:active {
 
 main{
 
-background-color: #ffffff;
+background-color: #dbd9d9;
 
 height: 550px;
 width: 120%;
@@ -60,12 +60,12 @@ width: 35%;
 
 #left{
 
-  width:10%;
+  width:35%;
 }
 
 
 footer{
-  background-color: #dbd9d9;
+  background-color: white;
 height: 100px;
 width: 100%;
 
